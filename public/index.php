@@ -1,3 +1,3 @@
 <?php
 
-require_once 'views/layout.php';
+require_once '../app/views/layout.php';

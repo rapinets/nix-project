@@ -14,7 +14,9 @@
       <?php require_once 'includes/header.php'; ?>
     </header>
     <main class="main py-3">
-      <div class="container">Content</div>
+      <div class="container">
+        <?php require 'posts.php'; ?>
+      </div>
     </main>
     <footer class="footer bg-dark py-3">
       <?php require_once 'includes/footer.php'; ?>
